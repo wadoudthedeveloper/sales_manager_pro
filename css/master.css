@@ -22,6 +22,10 @@
   --large-screens: 1200px;
 }
 
+:focus::placeholder {
+  color: transparent;
+}
+
 /* ===== Start Srollbar ===== */
 
 ::-webkit-scrollbar {
@@ -126,10 +130,17 @@
   padding: 0 25px;
 }
 
+@media (max-width: 767px) {
+  .menu > ul li a {
+    padding: 0 10px;
+  }
+}
+
 /* Hidden Menu */
 
 .hidden-menu {
   position: absolute;
+  top: 70px;
   right: -68px;
   background-color: var(--white-color);
   border-top: 3px solid #ccc;
@@ -592,6 +603,10 @@ form .group label {
   width: 100%;
   left: 0;
   align-items: flex-start;
+}
+
+.input:focus {
+  background-color: #d9d2d294;
 }
 
 .group .border {

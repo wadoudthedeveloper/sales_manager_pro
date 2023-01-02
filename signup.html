@@ -47,46 +47,55 @@
         <form action="" method="post" class="signup">
             <div class="group">
                 <label for="username">username:</label>
-                <input type="text" class="input" name="username" id="username">
+                <input type="text" class="input" name="username" id="username" placeholder="pick a username...">
                 <span class="border"></span>
             </div>
             <div class="group">
                 <label for="email">email:</label>
-                <input type="text" class="input" name="email" id="email">
+                <input type="text" class="input" name="email" id="email" placeholder="pick an email...">
                 <span class="border"></span>
             </div>
             <div class="group">
                 <label for="password">password:</label>
-                <input type="password" class="input" name="password" id="password">
+                <input type="password" class="input" name="password" id="password"
+                    placeholder="pick a strong password...">
                 <span class="border"></span>
             </div>
             <div class="group">
                 <label for="password-confirmation">password confirmation:</label>
-                <input type="password" class="input" name="password-confirmation" id="password-confirmation">
+                <input type="password" class="input" name="password-confirmation" id="password-confirmation"
+                    placeholder="repeat your password...">
                 <span class="border"></span>
             </div>
             <div class="semi-group">
                 <div class="group">
                     <label for="first-name">first name:</label>
-                    <input type="text" class="input" name="first-name" id="first-name">
+                    <input type="text" class="input" name="first-name" id="first-name"
+                        placeholder="pick your first name...">
                     <span class="border"></span>
 
                 </div>
                 <div class="group">
                     <label for="last-name">last name:</label>
-                    <input type="text" class="input" name="last-name" id="last-name">
+                    <input type="text" class="input" name="last-name" id="last-name"
+                        placeholder="pick your last name...">
                     <span class="border"></span>
 
                 </div>
             </div>
             <div class="group">
                 <label for="gender">gender:</label>
-                <input type="text" class="input" name="gender" id="gender">
+                <select class="input" name="gender" id="gender">
+                    <option value="gender">pick your gender...</option>
+                    <option value="mal">mal</option>
+                    <option value="female">female</option>
+                    <option value="no-thing">prefer to don't say</option>
+                </select>
                 <span class="border"></span>
             </div>
             <div class="group">
                 <label for="birth-day">birth day:</label>
-                <input type="text" class="input" name="birth-day" id="birth-day">
+                <input type="date" class="input" name="birth-day" id="birth-day">
                 <span class="border"></span>
             </div>
             <button type="submit" class="submit-btn"><i class="fa-solid fa-user-plus"></i> Submit</button>
