@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/rules.css">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Sign-in | Sales Manager PRO</title>
+</head>
+
+<body class="login-body">
+
+    <!-- Start header -->
+    <nav class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="logo">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li id="shower_hider" class="shower_hider"><a href="" class="shower_hider"> EN <i
+                                class="fa-solid fa-caret-down"></i></a></li>
+                </ul>
+                <div class="hidden-menu">
+                    <ul>
+                        <li><a href="">EN | English</a></li>
+                        <li><a href="">FR | French</a></li>
+                        <li><a href="">AR | Arabic</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End header -->
+    <!-- Start Footer -->
+    <!-- Start Sign-up Form -->
+
+    <div class="container">
+        <h1 class="title">Sign-in</h1>
+        <form action="" method="post" class="login">
+            <div class="group">
+                <label for="username">username:</label>
+                <input type="text" class="input" name="username" id="username" placeholder="pick your username...">
+                <span class="border"></span>
+            </div>
+            <div class="group">
+                <label for="password">password:</label>
+                <input type="password" class="input" name="password" id="password" placeholder="pick your password...">
+                <span class="border"></span>
+            </div>
+            <button type="submit" class="submit-btn"><i class="fa-solid fa-right-to-bracket"></i> Sign-in</button>
+        </form>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+    <script src="js/master.js"></script>
+</body>
+
+</html>

@@ -491,7 +491,7 @@
 }
 
 /* ===== End Footer ===== */
-/* ===== Start Signup ===== */
+/* ===== Start Signup & Login ===== */
 
 .title {
   color: var(--blue-color);
@@ -531,7 +531,8 @@
 
 /* Form Styling */
 
-.signup {
+.signup,
+.login {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
@@ -655,7 +656,7 @@ form .submit-btn:hover {
   -o-transform: scale(1.05);
 }
 
-/* ===== End Signup ===== */
+/* ===== End Signup & Login ===== */
 
 /* ===== Start Animations ===== */
 @keyframes img_move {
