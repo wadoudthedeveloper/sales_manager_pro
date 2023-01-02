@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/rules.css">
     <link rel="stylesheet" href="css/master.css">
-    <title>Sales Manager PRO</title>
+    <title>Sign-up | Sales Manager PRO</title>
 </head>
 
 <body>
@@ -43,12 +43,58 @@
     <!-- Start Sign-up Form -->
 
     <div class="container">
-        <h1 class="signup-title">Sign-up | Sales Manager PRO</h1>
-        <form action="" method="post"></form>
+        <h1 class="title">Sign-up</h1>
+        <form action="" method="post" class="signup">
+            <div class="group">
+                <label for="username">username:</label>
+                <input type="text" class="input" name="username" id="username">
+                <span class="border"></span>
+            </div>
+            <div class="group">
+                <label for="email">email:</label>
+                <input type="text" class="input" name="email" id="email">
+                <span class="border"></span>
+            </div>
+            <div class="group">
+                <label for="password">password:</label>
+                <input type="password" class="input" name="password" id="password">
+                <span class="border"></span>
+            </div>
+            <div class="group">
+                <label for="password-confirmation">password confirmation:</label>
+                <input type="password" class="input" name="password-confirmation" id="password-confirmation">
+                <span class="border"></span>
+            </div>
+            <div class="semi-group">
+                <div class="group">
+                    <label for="first-name">first name:</label>
+                    <input type="text" class="input" name="first-name" id="first-name">
+                    <span class="border"></span>
+
+                </div>
+                <div class="group">
+                    <label for="last-name">last name:</label>
+                    <input type="text" class="input" name="last-name" id="last-name">
+                    <span class="border"></span>
+
+                </div>
+            </div>
+            <div class="group">
+                <label for="gender">gender:</label>
+                <input type="text" class="input" name="gender" id="gender">
+                <span class="border"></span>
+            </div>
+            <div class="group">
+                <label for="birth-day">birth day:</label>
+                <input type="text" class="input" name="birth-day" id="birth-day">
+                <span class="border"></span>
+            </div>
+            <button type="submit" class="submit-btn"><i class="fa-solid fa-user-plus"></i> Submit</button>
+        </form>
     </div>
 
     <!-- End Sign-up Form -->
-    <!-- <div class="footer">
+    <div class="footer">
         <div class="container">
             <div class="left">
                 <ul>
@@ -77,9 +123,10 @@
             </div>
         </div>
         <h3 class="copyright">All Right Reserved &copy; 2022</h3>
-    </div> -->
+    </div>
     <!-- End Footer -->
 
+    <script src="js/jquery.js"></script>
     <script src="js/sweetalert.min.js"></script>
     <script src="js/master.js"></script>
 </body>
